@@ -26,14 +26,18 @@ table tr td{
 padding-bottom: 5px;
 }
 
-
 .blogheader{
     font-size: 50px;
     color: rgba(37, 4, 6, 0.959);
   }
 .addblog{
-    margin-bottom: 50px;
   margin-top: -50px;;
   font-size: 20px;
     color: rgba(37, 4, 6, 0.959);
+}
+input{
+    width: 400px;
+}
+textarea{
+    width: 400px;
 }

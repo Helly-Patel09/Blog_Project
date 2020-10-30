@@ -22,6 +22,5 @@ function addblog(){
         document.getElementById('title').value = '';
         document.getElementById('description').value = '';
     }
-    //alert(title+" "+desc); 
 
 }
