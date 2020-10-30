@@ -6,6 +6,7 @@ function addblog(){
     var desctext = document.createTextNode(desc);
     var li = document.createElement('li');
     var h5 = document.createElement('h5');
+    var hr = document.createElement('hr');
     h5.classList.add('card-title')
     h5.classList.add('title')
     var p = document.createElement('p');
@@ -13,6 +14,7 @@ function addblog(){
     p.classList.add('desc')
     h5.appendChild(titletext);
     p.appendChild(desctext);
+    li.appendChild(hr);
     li.appendChild(h5);
     li.appendChild(p);
     if(title=='' || desc=='')

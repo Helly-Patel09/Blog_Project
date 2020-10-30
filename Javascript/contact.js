@@ -52,7 +52,7 @@ function validateForm(){
 
     var messageErr = true;
     //validate message
-    if(message == 'Select'){
+    if(message == ''){
         printError("messageErr","Please Enter Details");
     }
     else{

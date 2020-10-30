@@ -1,7 +1,7 @@
 .title{
     font-size: x-large;
     font-weight: bold;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 hr{
@@ -15,7 +15,7 @@ table{
     width: 500px;
 }
 table tr{
-    width: 800px;
+    width: 100%;
     size: large;
     padding: 5px 0px 10px 0px;
 }
@@ -36,8 +36,8 @@ padding-bottom: 5px;
     color: rgba(37, 4, 6, 0.959);
 }
 input{
-    width: 400px;
+    width: 100%;
 }
 textarea{
-    width: 400px;
+    width: 100%;
 }

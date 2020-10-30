@@ -2,8 +2,12 @@ body {
     font-size: 16px;
     background-image: url(../images/contact.jpg);
     opacity: 0.9;
+    padding-bottom: 20px;
     font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     }
+    .navbar {
+        margin-bottom: 10px;
+      }
     h2 {
     text-align: center;
     text-decoration: underline;

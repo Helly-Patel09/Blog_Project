@@ -10,9 +10,9 @@
   <script src="Javascript/blog.js"></script>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,600,700|Nunito:300,400,600,700&#038;display=swap' type='text/css' media='all' />
 <link rel="stylesheet" href="https://bootstrapmade.com/wp-content/cache/min/1/14954ef64840cf987a03884f8ed73f9b.css" media="all" data-minify="1" />
-
 </head>
 <body>
+  <!--Navigation -->
   <div class="navi">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container"> 
@@ -22,7 +22,7 @@
               <a class="nav-link" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="blogs.html">Blogs</a>
@@ -33,51 +33,56 @@
         </div>
       </div>
     </nav>
-  </div>
+  </div><!--Navigation end-->
+
+  <!--headings-->
   <nav class="navbar navbar-light">
       <p class="blogheader">Blogs</p>
   </nav>
   <nav class="navbar navbar-light">
     <p class="addblog">To add a new blog, please fill out the details below.</p>
-  </nav>
-<div class="container">
-  <table align="center">
-    <tr>
-      <td>Title :</td>
-      <td><input type="text" id="title"></td>
-    </tr>
-    <tr>
-      <td>Description: </td>
-      <td><textarea id="description" rows="5" cols="auto"></textarea></td>
-    </tr>
-    <td><button onclick="addblog()" class="btn btn-info">Add New Blog</button></td>
-    </tr>
-  </table>
-</div>
-<hr/>
-<div class="container">
-  <ul id="myList">
-      <li>
+  </nav><!--headings end-->
+  
+  <!--Add Blog -->
+  <div class="container">
+    <table align="center">
+      <tr>
+        <td>Title :</td>
+        <td><input type="text" id="title"></td>
+      </tr>
+      <tr>
+        <td>Description: </td>
+        <td><textarea id="description" rows="5" cols="auto"></textarea></td>
+      </tr>
+      <td><button onclick="addblog()" class="btn btn-info">Add New Blog</button></td>
+      </tr>
+    </table>
+  </div><!--Add Blog end -->
+  <hr/>
+  <!--Blogs-->
+  <div class="container">
+    <ul id="myList">
+        <li>
             <h5 class="card-title title">
                  The Story of AWS and Andy Jassy’s Trillion Dollar Baby
             </h5>
             <p class="card-text desc">
-                        For all of entrepreneurs and developers in the technology business, Amazon Web Services (AWS) is not something new. It has been a godsend in creating value for all.
-                        AWS, the pioneer in cloud computing, has radically disrupted the global business landscape and the customer experience from the CIA to Apple Computer.
-                        The defending champs are the old-guard purveyors of hardware and software: HP, IBM, Oracle, Microsoft, and VMware/EMC. The challengers are cloud computing platforms, pioneered by Amazon Web Services. The stakes are high. If old-guard tech gets checkmated, it stands to lose tens of billions in market value from the 
-                        traditional hardware and software business models have delivered results for decades.
-                        Amazon Web Services wasn’t any one person’s single idea. No proverbial apple fell on some Newton’s head, no Henry Ford or Steve Jobs-like character had a brainstorm. Instead, it rather emerged. The idea grew organically out of the company’s frustration with its ability to launch new projects and support customers.
+                  For all of entrepreneurs and developers in the technology business, Amazon Web Services (AWS) is not something new. It has been a godsend in creating value for all.
+                  AWS, the pioneer in cloud computing, has radically disrupted the global business landscape and the customer experience from the CIA to Apple Computer.
+                  The defending champs are the old-guard purveyors of hardware and software: HP, IBM, Oracle, Microsoft, and VMware/EMC. The challengers are cloud computing platforms, pioneered by Amazon Web Services. The stakes are high. If old-guard tech gets checkmated, it stands to lose tens of billions in market value from the 
+                  traditional hardware and software business models have delivered results for decades.
+                  Amazon Web Services wasn’t any one person’s single idea. No proverbial apple fell on some Newton’s head, no Henry Ford or Steve Jobs-like character had a brainstorm. Instead, it rather emerged. The idea grew organically out of the company’s frustration with its ability to launch new projects and support customers.
             </p>
-      </li>
-
-      <li>
+        </li>
+        <hr>
+        <li>
             <h5 class="card-title title">                    
               Object-Oriented Programming in Java
             </h5>
             <p class="card-text desc">
-              Object-Oriented Programming is a programming style that is associated with the concepts like class, object, Inheritance, Encapsulation, Abstraction, Polymorphism. Most popular programming languages like Java, C++, C#, Ruby, etc. follow an object-oriented 
-              programming paradigm. In this blog, I will talk about object-oriented programming concepts in Java. An object-based application in 
-              Java is based on declaring classes, creating objects from them, and interacting between these objects. In this blog, we will understand the below core concepts of Object-oriented Programming in the following sequence:
+                  Object-Oriented Programming is a programming style that is associated with the concepts like class, object, Inheritance, Encapsulation, Abstraction, Polymorphism. Most popular programming languages like Java, C++, C#, Ruby, etc. follow an object-oriented 
+                  programming paradigm. In this blog, I will talk about object-oriented programming concepts in Java. An object-based application in 
+                  Java is based on declaring classes, creating objects from them, and interacting between these objects. In this blog, we will understand the below core concepts of Object-oriented Programming in the following sequence:
               <ol>
                 <li>Inheritance</li>
                 <li>Encapsulation</li>
@@ -85,28 +90,29 @@
                 <li>Polymorphism</li>
               </ol>      
             </p>
-      </li>
+        </li>
+        <hr>
+        <li>
+            <h5 class="card-title title">
+               Understanding Artificial Intelligence
+            </h5>
+            <p class="card-text desc">
+                  Artificial Intelligence are machines or computer programs that learn to perform tasks that require types of intelligence and that are usually performed by humans. And when we talk about types of intelligence, 
+                  we need to rescue Jack Copeland’s reflection on what intelligence is: “the dominant thought in psychology considers human intelligence not as a single ability or cognitive process, but rather as a set of separate components. 
+                  Research in AI has focused primarily on the following components of intelligence: learning, reasoning, problem solving, perception, and comprehension of language”.
+            </p>
+        </li>
+        </ul>
+    </div><!--Blogs end-->
 
-      <li>
-        <h5 class="card-title title">
-             Understanding Artificial Intelligence
-        </h5>
-        <p class="card-text desc">
-          Artificial Intelligence are machines or computer programs that learn to perform tasks that require types of intelligence and that are usually performed by humans. And when we talk about types of intelligence, 
-          we need to rescue Jack Copeland’s reflection on what intelligence is: “the dominant thought in psychology considers human intelligence not as a single ability or cognitive process, but rather as a set of separate components. 
-          Research in AI has focused primarily on the following components of intelligence: learning, reasoning, problem solving, perception, and comprehension of language”.
+    <!--Footer-->
+    <footer class="text-muted ">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
         </p>
-    </li>
-  </ul>
-</div>
-
-<footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-        <a href="#">Back to top</a>
-      </p>
       </div>
-  </footer>
+    </footer><!--Footer end-->
 
 </body>
 </html>
