@@ -1,0 +1,39 @@
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+hr{
+    scroll-padding-block: 30px;
+}
+.desc{
+    color: rgb(4, 11, 24);
+}
+table{
+    margin-top: -50px;
+    width: 500px;
+}
+table tr{
+    width: 800px;
+    size: large;
+    padding: 5px 0px 10px 0px;
+}
+table tr td{
+    padding: 5px 0px 10px 0px;
+}
+ .navi {
+padding-bottom: 5px;
+}
+
+
+.blogheader{
+    font-size: 50px;
+    color: rgba(37, 4, 6, 0.959);
+  }
+.addblog{
+    margin-bottom: 50px;
+  margin-top: -50px;;
+  font-size: 20px;
+    color: rgba(37, 4, 6, 0.959);
+}
